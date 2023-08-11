@@ -1,0 +1,33 @@
+name: 枕边书
+description: 常怀敬畏之心。
+url: https://zhenbianshu.github.io
+baseurl: ''
+github: 'zhenbianshu'
+
+# Set this to your UA-# value, or '' to disable the block completely
+gaaccount: 'UA-129889454-1'
+
+# 评论
+comments: true
+
+# 喝茶
+reward: false
+
+permalink: /:year/:month/:title.html
+paginate: 10
+
+highlighter: rouge
+markdown: kramdown
+plugins: ['jekyll-paginate']
+
+exclude: ['README.md']
+
+collections:
+  stories:
+    output: true
+    permalink: /:year/:month/:title.html
+
+# 文章相关配置
+article:
+  copyright: 转载随意，文章会持续修订，请注明来源地址：[https://zhenbianshu.github.io](https://zhenbianshu.github.io) 。
+  summary: 关于本文有什么疑问可以在下面留言交流，如果您觉得本文对您有帮助，欢迎关注我的 [微博](https://weibo.com/u/5715965217) 或 [GitHub](https://github.com/zhenbianshu/) 。您也可以在我的 [博客REPO](https://github.com/zhenbianshu/zhenbianshu.github.io) 右上角点击 `Watch` 并选择 `Releases only` 项来 `订阅` 我的博客，有新文章发布会第一时间通知您。
